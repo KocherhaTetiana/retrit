@@ -105,7 +105,7 @@ function App() {
                
               </div>
               <div className="col-6">
-                <img src="./dist/assets/IMG_5617.png" alt="Татьяна Кочерга" />
+                <img src="/assets/IMG_5617.png" alt="Татьяна Кочерга" />
               </div>
               <div className="col-12">
                 <p>
@@ -312,7 +312,7 @@ function App() {
             <div className="row">
 
               <div className="col-6">
-                <img src="./dist/assets/unnamed.jpg" alt="Заповідник Буша" />
+                <img src="/assets/unnamed.jpg" alt="Заповідник Буша" />
               </div>
 
               <div className="col-6">
