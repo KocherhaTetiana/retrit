@@ -105,7 +105,7 @@ function App() {
                
               </div>
               <div className="col-6">
-                <img src={`${import.meta.env.VITE_BASE_URL}public/images/assets/IMG_5617.png`} alt="Татьяна Кочерга" />
+                <img src={`${import.meta.env.VITE_BASE_URL}public/images/IMG_5617.png`} alt="Татьяна Кочерга" />
               </div>
               <div className="col-12">
                 <p>
@@ -312,7 +312,7 @@ function App() {
             <div className="row">
 
               <div className="col-6">
-                <img src={`${import.meta.env.VITE_BASE_URL}public/images/assets/unnamed.jpg`} alt="Заповідник Буша" />
+                <img src={`${import.meta.env.VITE_BASE_URL}public/images/unnamed.jpg`} alt="Заповідник Буша" />
               </div>
 
               <div className="col-6">
