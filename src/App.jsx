@@ -38,7 +38,7 @@ function App() {
             <div className="row authorsBlock">
               <div className="author">
                 <h2>Тетяна Кісільова</h2>
-                <p>Психолог, провідник<br />духовних практик.</p>
+                <p>Психолог, провідник<br />духовних практик</p>
               </div>
 
               <div className="author">
