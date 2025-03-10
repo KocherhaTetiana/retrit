@@ -121,7 +121,7 @@ img {
 
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url('../images/photo_2025-03-10_21-05-48.jpg') center/cover no-repeat;
+  url('./public/images/photo_2025-03-10_21-05-48.jpg') center/cover no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 10%;
   background-size: cover;
@@ -134,12 +134,26 @@ img {
   text-align: center;
   color: white;
   min-height: 900px;
-  background-image: url('../images/mainBanner.png');
+  background-image: url('./public/images/mainBanner.png');
   padding: 0;
   padding-bottom: 100px;
   position: relative;
   background-position: 100% 50%;
 
+}
+
+.aboutPlace {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('./public/images/photo_2025-03-10_21-05-52.jpg') center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: cover;
+  padding: 100px 20px;
+  color: white;
+}
+
+.aboutPlace h2 {
+  color: white;
 }
 
 .banner .authorsBlock {
@@ -371,7 +385,7 @@ button.formSubmit:hover {
   max-height: 500px;
   object-fit: contain;
   margin-bottom: 20px;
-  background: #c2794d75;
+  background: #c27a4d;
 }
 
 .aboutAuthors .col-6 {
@@ -509,7 +523,7 @@ section.banner h3 {
 
 @media screen and (max-width: 768px) {
   .firstScreen {
-    background-image: url('../images/banner-mobile.png');
+    background-image: url('./public/images/banner-mobile.png');
     padding-bottom: 100px;
     background-position: 50% 50%;
   }
