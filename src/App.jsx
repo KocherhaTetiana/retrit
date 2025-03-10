@@ -147,22 +147,6 @@ function App() {
       </section>
 
 
-      <section className="banner">
-
-          <div className="container">
-            <div className="row flex-column">
-              <h3>
-                І найважливіше — це підтримка. Поруч будуть жінки, які також стоять на порозі свого переходу. Які знають, як це — боятися змін, але ще більше — втомитися жити не своїм життям. І поруч будемо і ми, твої провідники, які знають як ніхто інший, як це боятися, стояти на цьому порозі і в той же час робити крок вперед!
-              </h3>
-
-              <button className="toContactForm">Забронювати місце</button>
-
-            </div>
-          </div>
-
-      </section>
-
-
       <section className="retritForYou">
 
           <div className="container">
@@ -205,6 +189,22 @@ function App() {
             </div>
           </div>
  
+      </section>
+
+
+      <section className="banner">
+
+        <div className="container">
+          <div className="row flex-column">
+            <h3>
+              І найважливіше — це підтримка. Поруч будуть жінки, які також стоять на порозі свого переходу. Які знають, як це — боятися змін, але ще більше — втомитися жити не своїм життям. І поруч будемо і ми, твої провідники, які знають як ніхто інший, як це боятися, стояти на цьому порозі і в той же час робити крок вперед!
+            </h3>
+
+            <button className="toContactForm">Забронювати місце</button>
+
+          </div>
+        </div>
+
       </section>
 
 
