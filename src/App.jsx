@@ -142,7 +142,7 @@ function App() {
                 </div>
                 <div className="infoitem ">
                   <Eye size={48} strokeWidth={1.5} color="#C2794D" />
-                  <p>Хочеш зустрітися зі своїми <strong>СПРАВЖНІМИ</strong>бажаннями та потребами.</p>
+                  <p>Хочеш зустрітися зі своїми <strong>СПРАВЖНІМИ</strong> бажаннями та потребами.</p>
                 </div>
                 <div className="infoitem">
                   <Search size={48} strokeWidth={1.5} color="#C2794D" />

@@ -138,13 +138,15 @@ img {
   padding: 0;
   padding-bottom: 100px;
   position: relative;
+  background-position: 100% 50%;
+
 }
 
 .banner .authorsBlock {
   flex-direction: row;
   position: absolute;
   right: 25px;
-  bottom: 100px;
+  bottom: 150px;
   max-width: 1140px;
   width: 100%;
 }
@@ -365,8 +367,167 @@ button.formSubmit:hover {
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media screen and (max-width: 1200px) {
+  .authorsBlock .author {
+      width: 50%;
+      max-width: 300px;
+      margin-left: auto;
   }
+  .infoRow {
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      width: 220px;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+      font-size: 62px;
+      font-weight: 800;
+  }
+  .firstScreen h2, .firstScreen .author h2 {
+      font-size: 52px;
+  }
+  .firstScreen h2 {
+      font-size: 90px;
+  }
+  .row.infoBlock {
+      flex-direction: row;
+  }
+  .infoRow {
+      background: #ffffff85;
+      width: 350px;
+      margin-right: 20px;
+      margin-left: auto;
+  }
+  .infoRow:last-child {
+      margin-right: auto;
+  }
+  .infoRow:hover {
+      background: #ffffff;
+  }
+  .row.infoBlock {
+      margin-top: 290px;
+  }
+  .banner .authorsBlock {
+      bottom: 120px;
+  }
+  .infoblock-3-items {
+      flex-direction: column;
+      width: 100%;
+  }
+  .infoblock-3-items .infoitem {
+      padding: 0;
+      width: 100%;
+  }
+  .container {
+      padding: 50px 0;
+  }
+  .col-6 {
+      width: 100%;
+      flex: 100%;
+  }
+  .contactUs {
+    padding-bottom: 50px;
+  }
+  .contactUs img {
+      max-height: 500px;
+  }
+  section.ourRetritsAre img {
+      max-height: 500px;
+  }
+  .infoblocks-3-items .infoitem {
+      width: 45%;
+  }
+  .infoblocks-3-items {
+      flex-wrap: wrap;
+  }
+  .prices .row>p {
+      margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .firstScreen {
+    background-image: url('../images/banner-mobile.png');
+    padding-bottom: 100px;
+    background-position: 50% 50%;
+  }
+  .infoRow {
+      width: fit-content;
+      margin-right: 15px;
+      padding: 10px 15px;
+      flex-direction: row;
+  }
+  .row.infoBlock {
+      margin-top: 320px;
+      flex-direction: row;
+  }
+  .infoblocks-4-items .infoitem {
+      width: 100%;
+      min-height: fit-content;
+  }
+  .infoblocks-3-items .infoitem {
+      width: 100%;
+  }
+  .banner .authorsBlock {
+      right: 0;
+      padding: 0;
+  }
+  h2 {
+      text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 568px) {
+  h1 {
+      font-size: 48px;
+  }
+  .firstScreen h2, .firstScreen .author h2 {
+      font-size: 42px;
+  }
+
+  .firstScreen h2 {
+      font-size: 70px;
+  }
+
+  .row p {
+      font-size: 18px;
+      line-height: 1.4em;
+  }
+  h2 {
+      font-size: 26px;
+  }
+  button.toContactForm {
+      width: 250px;
+  }
+  h3 {
+      text-align: center;
+  }
+  .fieldWrapper.messenger-pick input {
+      margin-bottom: 10px;
+  }
+    
+}
+
+@media screen and (max-width: 480px) {
+  .infoRow {
+      width: 100%;
+      margin-right: 0;
+  }
+  .row.infoBlock {
+      margin-top: 280px;
+      flex-direction: row;
+  }
+  .firstScreen .author h2 {
+      font-size: 32px;
+      line-height: 36px;
+  }
+  .firstScreen .row p {
+      font-size: 16px;
+      line-height: 1.4em;
+  }
+
 }
