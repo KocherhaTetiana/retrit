@@ -427,6 +427,7 @@ section.banner h3 {
     padding: 15px 30px;
     border: 1px solid #c2794d;
     margin-top: 20px;
+    text-align: center;
 }
 
 .prices .row:last-of-type p {
@@ -435,8 +436,9 @@ section.banner h3 {
   border-radius: 15px;
   padding: 15px 30px;
   border: 1px solid #c2794d;
-  margin-top: 40px;
   text-align: center;
+  margin: auto;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 1200px) {
