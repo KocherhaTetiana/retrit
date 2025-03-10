@@ -121,7 +121,7 @@ img {
 
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url('./public/images/photo_2025-03-10_21-05-48.jpg') center/cover no-repeat;
+  url('../images/photo_2025-03-10_21-05-48.jpg') center/cover no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 10%;
   background-size: cover;
@@ -134,7 +134,7 @@ img {
   text-align: center;
   color: white;
   min-height: 900px;
-  background-image: url('./public/images/mainBanner.png');
+  background-image: url('../images/mainBanner.png');
   padding: 0;
   padding-bottom: 100px;
   position: relative;
@@ -144,7 +144,7 @@ img {
 
 .aboutPlace {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url('./public/images/photo_2025-03-10_21-05-52.jpg') center/cover no-repeat;
+  url('../images/photo_2025-03-10_21-05-52.jpg') center/cover no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 10%;
   background-size: cover;
@@ -523,7 +523,7 @@ section.banner h3 {
 
 @media screen and (max-width: 768px) {
   .firstScreen {
-    background-image: url('./public/images/banner-mobile.png');
+    background-image: url('../images/banner-mobile.png');
     padding-bottom: 100px;
     background-position: 50% 50%;
   }
