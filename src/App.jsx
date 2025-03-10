@@ -370,9 +370,8 @@ function App() {
                 </h2>
                 <h3>Заповнюй анкетні дані і ми зв’яжемось з тобою найближчим часом</h3>
 
-                <form action="https://formsubmit.co/tatiankocherga@gmail.com" method="POST" className="contact-form">
+                <form action="https://formspree.io/f/xldjejjw" method="POST" className="contact-form">
                     <input type="hidden" name="_captcha" value="false" />
-                    <input type="hidden" name="_next" value="https://kocherhatetiana.github.io/retrit/" />
 
                     <div className="fieldWrapper"> 
                         <label htmlFor="form-field-name">Ім'я</label>
