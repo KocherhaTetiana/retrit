@@ -121,7 +121,7 @@ img {
 
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url('../images/zapovidnuk-busha.jpg') center/cover no-repeat;
+  url('../images/photo_2025-03-10_21-05-48.jpg') center/cover no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 10%;
   background-size: cover;
@@ -367,6 +367,39 @@ button.formSubmit:hover {
   color: white;
 }
 
+.aboutAuthors img {
+  max-height: 500px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  background: #c2794d75;
+}
+
+.aboutAuthors .col-6 {
+  display: flex;
+  align-items: center;
+}
+
+.imageCards-3-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageCards-3-items .imageCard {
+  width: 31%;
+}
+
+.imageCards-3-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+section.banner h3 {
+  font-size: 24px;
+}
+
 @media screen and (max-width: 1200px) {
   .authorsBlock .author {
       width: 50%;
@@ -446,6 +479,16 @@ button.formSubmit:hover {
   .prices .row>p {
       margin-top: 20px;
   }
+  section.aboutAuthors img {
+      margin-bottom: 35px;
+
+  }
+  .aboutAuthors .row .row:last-of-type .col-6:first-of-type {
+      order: 2;
+  }
+  .imageCards-3-items .imageCard {
+      width: 48%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -478,6 +521,9 @@ button.formSubmit:hover {
   h2 {
       text-align: center;
   }
+  .imageCards-3-items .imageCard {
+      width: 100%;
+  }
 }
 
 
@@ -508,6 +554,9 @@ button.formSubmit:hover {
   }
   .fieldWrapper.messenger-pick input {
       margin-bottom: 10px;
+  }
+  section.aboutAuthors img {
+      max-height: fit-content;
   }
     
 }
