@@ -436,6 +436,7 @@ section.banner h3 {
   padding: 15px 30px;
   border: 1px solid #c2794d;
   margin-top: 40px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
