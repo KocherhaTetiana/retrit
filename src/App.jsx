@@ -286,7 +286,7 @@ function App() {
                 </div>
                 <div className="col-6">
                   <p>
-                    <b>Кочерга Тетяна</b> – психолог, гештальт-терапевт. Досвід індивідуальної та групової роботи із 2017 року. Основні напрямки в роботі – робота із різного роду запитами в темі стосунків, сепація, кризи, запити з пошуку себе, свого шляху, своєї професійної ідентичності, своїх істинних потреб та бажань, формування дорослої позиції, теми сексуальності та психологія переїдання/зайвої ваги. Крім терапії захоплююсь подорожами, рафтингом, спортом, водінням авто, маю чорну лабрадорку Бусю. В недавньому захопилююсь хайкінгом і в планах на весну 2025 року пройти Лікійською стежкою в Туреччині.
+                    <b>Кочерга Тетяна</b> – психолог, гештальт-терапевт. Досвід індивідуальної та групової роботи із 2017 року. Основні напрямки в роботі – робота із різного роду запитами в темі стосунків, сепарація, кризи, запити з пошуку себе, свого шляху, своєї професійної ідентичності, своїх істинних потреб та бажань, формування дорослої позиції, теми сексуальності та психологія переїдання/зайвої ваги. Крім терапії захоплююсь подорожами, рафтингом, спортом, водінням авто, маю чорну лабрадорку Бусю. В недавньому захоплююсь хайкінгом і в планах на весну 2025 року пройти Лікійською стежкою в Туреччині.
                   </p>
                 </div>
               </div>
@@ -370,35 +370,41 @@ function App() {
                 </h2>
                 <h3>Заповнюй анкетні дані і ми зв’яжемось з тобою найближчим часом</h3>
 
-                <form action="/" className="contact-form" method="post" name="Ретрит в Буша">
-                  <div className="fieldWrapper"> 
-                    <label htmlFor="form-field-name">Ім'я</label>
-                    <input size={1} type="text" name="name" id="form-field-name"  placeholder="Ім'я" required={true} />
-                  </div>
-                  <div className="fieldWrapper"> 
-                    <label htmlFor="form-field-email">Email</label>
-                    <input size={1} type="email" name="email" id="form-field-email" className="emailField" placeholder="Email" required={true} />
-                  </div>
-                  <div className="fieldWrapper">       
-                    <label htmlFor="field_6222496">Телефон</label>
-                    <input size={1} type="tel" name="phone" id="phone" className="phoneField" placeholder="Контактний телефон" required={true} pattern='[0-9()#&amp;+*-=.]+' title="Лише цифри та символи телефону (#, -, *, і т.д.) приймаються." />
-                  </div> 
+                <form action="https://formsubmit.co/tatiankocherga@gmail.com" method="POST" className="contact-form">
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://kocherhatetiana.github.io/retrit/" />
 
-                  <div className="fieldWrapper messenger-pick">
-                      <label htmlFor="messenger" className="">Зручний месенджер для зв'язку</label>
-                      
-                      <input type="radio" value="Telegram" id="telegram" name="messenger[telegram]" /> 
-                      <label htmlFor="telegram">Telegram</label>
+                    <div className="fieldWrapper"> 
+                        <label htmlFor="form-field-name">Ім'я</label>
+                        <input size={1} type="text" name="name" id="form-field-name" placeholder="Ім'я" required />
+                    </div>
 
-                      <input type="radio" value="Viber" id="viber" name="messenger[viber]" /> 
-                      <label htmlFor="viber">Viber</label>
+                    <div className="fieldWrapper"> 
+                        <label htmlFor="form-field-email">Email</label>
+                        <input size={1} type="email" name="email" id="form-field-email" placeholder="Email" required />
+                    </div>
 
-                      <input type="radio" value="Whatsapp" id="whatsapp" name="messenger[whatsapp]" /> 
-                      <label htmlFor="whatsapp">Whatsapp</label>
+                    <div className="fieldWrapper">       
+                        <label htmlFor="phone">Телефон</label>
+                        <input size={1} type="tel" name="phone" id="phone" placeholder="Контактний телефон" required pattern="[0-9()#&amp;+*-=.]+" title="Лише цифри та символи телефону (#, -, *, і т.д.) приймаються." />
+                    </div> 
+
+                    <div className="fieldWrapper messenger-pick">
+                        <label>Зручний месенджер для зв'язку</label>
+                        
+                        <input type="radio" value="Telegram" id="telegram" name="messenger" /> 
+                        <label htmlFor="telegram">Telegram</label>
+
+                        <input type="radio" value="Viber" id="viber" name="messenger" /> 
+                        <label htmlFor="viber">Viber</label>
+
+                        <input type="radio" value="Whatsapp" id="whatsapp" name="messenger" /> 
+                        <label htmlFor="whatsapp">Whatsapp</label>
                     </div>  
 
                     <button className="formSubmit" type="submit">Надіслати</button>
                 </form>
+
 
               </div>       
             </div>
