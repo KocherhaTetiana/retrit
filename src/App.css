@@ -430,6 +430,15 @@ section.banner h3 {
     margin-top: 20px;
 }
 
+.prices .row:last-of-type p {
+  box-shadow: 0 10px 30px #c2794d;
+  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+  border-radius: 15px;
+  padding: 15px 30px;
+  border: 1px solid #c2794d;
+  margin-top: 40px;
+}
+
 @media screen and (max-width: 1200px) {
   .authorsBlock .author {
       width: 50%;
