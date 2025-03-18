@@ -320,12 +320,39 @@ button.toContactForm {
   width: 350px;
   font-weight: 700;
   margin: auto;
+  outline: none;
 }
 
 button.toContactForm:hover {
   background-color: white;
   color: #c2794d;
 }
+
+button.toContactForm.btnStyle2 {
+  border: 1px solid #c2794d;
+  background-color: transparent;
+  margin: 10px auto;
+  color: #c2794d;
+  box-shadow: 0px 0px 7px 0px #c2794d;
+}
+
+button.toContactForm.btnStyle3 {
+  border: 1px solid white;
+  background-color: white;
+  margin: 10px auto;
+  color: #c2794d;
+}
+
+button.toContactForm.btnStyle2:hover {
+  background-color: #c2794d;
+  color: white;
+}
+
+button.toContactForm.btnStyle3:hover {
+  background-color: transparent;
+  color: white;
+}
+
 
 .fieldWrapper {
   margin-bottom: 20px;
@@ -441,6 +468,24 @@ section.banner h3 {
   margin-top: 40px;
 }
 
+.ourRetritsAre button.toContactForm {
+  margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 1800px) {
+  button.toContactForm.btnStyle3 {
+    border: 1px solid white;
+    background-color: transparent ;
+    margin: 10px auto;
+    color: white;
+  }
+  
+  button.toContactForm.btnStyle3:hover {
+    background-color: rgba(255, 255, 255, 0.363);
+    color: white;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .authorsBlock .author {
       width: 50%;
@@ -544,6 +589,7 @@ section.banner h3 {
       padding: 10px 15px;
       flex-direction: row;
   }
+
   .row.infoBlock {
       margin-top: 320px;
       flex-direction: row;

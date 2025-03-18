@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css'
-import { myFunction, initAccordion, initSmoothScroll  } from "./App.js";
+import { myFunction, initAccordion, initSmoothScroll, ScrollToContactForm  } from "./App.js";
 import { CalendarDays, SunMoon, MapPin, MapPinHouse, HeartHandshake, UserPlus, Lightbulb, Heart, Eye, Search, BedDouble, UtensilsCrossed, ClipboardList, Bus } from "lucide-react";
 
 
@@ -10,6 +10,7 @@ function App() {
     myFunction();
     initAccordion(); 
     initSmoothScroll();
+    ScrollToContactForm();
   }, []);
 
   return (
@@ -108,7 +109,9 @@ function App() {
                 <p>
                   І саме в ці моменти важливо не залишатися наодинці зі своїм страхом і невідомістю. Важливо мати простір, де можна бути собою в колі таких же своїх! Наш тур – і може стати тим самим простором для тебе!
                 </p>
+                
               </div>
+              <button className="toContactForm btnStyle2">Забронювати місце</button>
             </div>
           </div>
 

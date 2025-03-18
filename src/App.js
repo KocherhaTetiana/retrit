@@ -57,4 +57,19 @@ export function initSmoothScroll() {
         });
 
     }, 100);
+    
+}
+
+export function ScrollToContactForm() {
+    setTimeout(() => {
+        if (window.location.hash === "#contactForm") {
+            const target = document.getElementById("contactForm");
+
+            if (target) {
+                target.scrollIntoView({ behavior: "smooth" });
+            } else {
+                console.warn("Element #contactForm not found!");
+            }
+        }
+    }, 100);
 }
